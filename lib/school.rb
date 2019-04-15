@@ -14,7 +14,7 @@ class School
   def grade(s_grade)
     roster.detect do |key, student|
     if key == s_grade
-      student
+      return student
     end
   end
 end
