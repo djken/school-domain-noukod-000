@@ -12,12 +12,12 @@ class School
   end
   
   def grade(s_grade)
-    roster.detect do |key, student|
-    if key == s_grade
-      return student
+      roster.detect do |key, student|
+      if key == s_grade
+        return student
+      end
     end
   end
-end
 
   def sort
   #   sort_hash = {}
