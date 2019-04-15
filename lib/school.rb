@@ -25,5 +25,6 @@ class School
     sort_hash[key] = student.sort
   end
     sort_hash
+  end
 end
 
