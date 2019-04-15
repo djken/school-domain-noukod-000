@@ -12,6 +12,14 @@ class School
   end
   
   def grade(s_grade)
-    
+    rooster.
   end
 end
+
+def grade(level)
+    roster.detect do |x, y| 
+      if x == level
+        return y 
+      end 
+    end 
+  end 
