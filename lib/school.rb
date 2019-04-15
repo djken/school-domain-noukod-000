@@ -12,6 +12,3 @@ class School
   end
   
 end
-
-school.add_student("Zach Morris", 9)
-school.roster
