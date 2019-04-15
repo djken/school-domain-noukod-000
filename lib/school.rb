@@ -12,7 +12,7 @@ class School
   end
   
   def grade(s_grade)
-    rooster.detect do |key, student|
+    roster.detect do |key, student|
     if key == s_grade
       student
     end
