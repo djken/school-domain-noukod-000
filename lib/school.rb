@@ -7,6 +7,7 @@ class School
   end
   
   def add_student(s_name, s_grade)
+   roster_array[] = []
    
   end
   
