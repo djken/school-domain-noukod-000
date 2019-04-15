@@ -7,7 +7,7 @@ class School
   end
   
   def add_student(s_name, s_key)
-   roster[s_key] = []
+   roster[s_key] ||= []
    roster[s_key].push(s_name)
   end
   
