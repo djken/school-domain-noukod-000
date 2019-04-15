@@ -11,5 +11,4 @@ class School
    roster[s_key].push(s_name)
   end
   
-  
 end
