@@ -26,8 +26,8 @@ end
   end
 end
 
-nu_hash = {}
-  roster.each do |x, y| 
-    nu_hash[x] = y.sort 
-  end 
-  nu_hash
+# nu_hash = {}
+#   roster.each do |x, y| 
+#     nu_hash[x] = y.sort 
+#   end 
+#   nu_hash
