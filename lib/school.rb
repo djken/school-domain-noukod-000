@@ -24,11 +24,6 @@ end
   #   roster.each {|key, student|} sort_hash[key] = student.sort
   #   sort_hash
   # end
-  nu_hash = {}
-  roster.each do |x, y| 
-    nu_hash[x] = y.sort 
-  end 
-  nu_hash
 
 end
 
