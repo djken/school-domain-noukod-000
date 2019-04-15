@@ -6,9 +6,9 @@ class School
     @roster = {}
   end
   
-  def add_student(s_name, s_grade)
-   roster_array[] = []
-   
+  def add_student(s_name, s_key)
+   roster_array[s_key] = []
+   roster_array[s_key].push(s_name)
   end
   
 end
