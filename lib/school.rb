@@ -7,12 +7,12 @@ class School
   end
   
   def add_student(s_name, s_key)
-   roster[s_key] = []
-   roster[s_key].push(s_name)
+   @roster[s_key] = []
+   @roster[s_key].push(s_name)
   end
   
   def grade(s_grade)
-    rooster.detect do |key, student|
+    @rooster.detect do |key, student|
     if key == s_grade
       student
     end
